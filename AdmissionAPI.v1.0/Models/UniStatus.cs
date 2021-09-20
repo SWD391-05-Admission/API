@@ -1,9 +1,8 @@
-﻿namespace AdmissionAPI.Models
+﻿using AdmissionAPI.v1._0.Models;
+
+namespace AdmissionAPI.Models
 {
-    public class UniStatus
+    public class UniStatus: BaseStatus
     {
-        public int Id { get; set; }
-        public string Status { get; set; }
-        public string Description { get; set; }
     }
 }

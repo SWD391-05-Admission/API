@@ -135,3 +135,4 @@ D:\Microsoft\OneDrive\FPT\Term_7\SWD391\Admission\API\AdmissionAPI.v1.0\Admissio
 D:\Microsoft\OneDrive\FPT\Term_7\SWD391\Admission\API\AdmissionAPI.v1.0\AdmissionAPI.v1.0\obj\Debug\net5.0\AdmissionAPI.v1.0.genruntimeconfig.cache
 D:\Microsoft\OneDrive\FPT\Term_7\SWD391\Admission\API\AdmissionAPI.v1.0\AdmissionAPI.v1.0\bin\Debug\net5.0\AutoMapper.dll
 D:\Microsoft\OneDrive\FPT\Term_7\SWD391\Admission\API\AdmissionAPI.v1.0\AdmissionAPI.v1.0\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Microsoft\OneDrive\FPT\Term_7\SWD391\Admission\API\AdmissionAPI.v1.0\AdmissionAPI.v1.0\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using AdmissionAPI.v1._0.Models;
 
 namespace AdmissionAPI.Models
 {
-    public class UniAddress
+    public class UniAddress : BaseEntity
     {
-        public int Id { get; set; }
         public string Address { get; set; }
 
-        public University University{ get; set; }
+        public District District { get; set; }
+        public University University { get; set; }
     }
 }

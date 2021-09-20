@@ -1,11 +1,9 @@
-﻿using System;
+﻿using AdmissionAPI.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using AdmissionAPI.Models;
 
 namespace AdmissionAPI.v1._0.Controllers
 {
