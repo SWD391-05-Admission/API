@@ -8,26 +8,26 @@ namespace AdmissionAPI.v1._0.Repositories
 {
     public class UniversityRepository : IUniversityRepository
     {
-        private readonly AdmissionContext _context;
+        //private readonly AdmissionContext _context;
 
-        public UniversityRepository(AdmissionContext context)
-        {
-            _context = context;
-        }
-        public async Task AddUniversity(University university)
-        {
-            _context.University.Add(university);
-            await _context.SaveChangesAsync();
-        }
+        //public UniversityRepository(AdmissionContext context)
+        //{
+        //    _context = context;
+        //}
+        //public async Task AddUniversity(University university)
+        //{
+        //    _context.University.Add(university);
+        //    await _context.SaveChangesAsync();
+        //}
 
-        public Task<IEnumerable<University>> GetUniversities(int DistrictId)
-        {
-            throw new NotImplementedException();
-        }
+        //public Task<IEnumerable<University>> GetUniversities(int DistrictId)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public Task<University> UpdateUniversity(University university)
-        {
-
-        }
+        //public Task<University> UpdateUniversity(University university)
+        //{
+        //    return university;
+        //}
     }
 }
