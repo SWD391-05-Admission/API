@@ -34,7 +34,7 @@ namespace AdmissionAPI.v1._0
 
             services.AddControllersWithViews();
             services.AddAutoMapper
-            (typeof(AutoMapperProfile).Assembly);
+            (typeof(UniStatusProfile).Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

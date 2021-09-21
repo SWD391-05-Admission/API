@@ -6,10 +6,10 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace AdmissionAPI.v1._0.ViewModels
-{    public class AutoMapperProfile : Profile
+{    public class UniStatusProfile : Profile
 
     {
-        public AutoMapperProfile()
+        public UniStatusProfile()
         {
             CreateMap<UniStatusView, UniStatus>();
         }

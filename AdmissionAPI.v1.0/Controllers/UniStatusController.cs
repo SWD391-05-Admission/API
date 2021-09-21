@@ -16,12 +16,12 @@ namespace AdmissionAPI.v1._0.Controllers
 
 
         private readonly AdmissionContext _context;
-        private readonly IMapper mapper;
+        private readonly IMapper _mapper;
 
-        public UniStatusController(IMapper Imapper, AdmissionContext context)
+        public UniStatusController(IMapper mapper, AdmissionContext context)
         {
             _context = context;
-            mapper = Imapper;
+            _mapper = mapper;
         }
 
         // GET: api/UniStatus
@@ -80,7 +80,7 @@ namespace AdmissionAPI.v1._0.Controllers
         [HttpPost]
         public async Task<ActionResult<UniStatus>> PostUniStatus(UniStatusView uniStatusView)
         {
-            var uniStatus = mapper.Map<UniStatus>(uniStatusView);
+            var uniStatus = _mapper.Map<UniStatus>(uniStatusView);
 
             _context.UniStatus.Add(uniStatus);
             await _context.SaveChangesAsync();
