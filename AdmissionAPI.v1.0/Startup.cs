@@ -45,6 +45,7 @@ namespace AdmissionAPI.v1._0
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AdmissionAPI.v1._0 v1"));
+                app.UseSwaggerUI(c =>  c.RoutePrefix = string.Empty);
             }
 
             app.UseHttpsRedirection();

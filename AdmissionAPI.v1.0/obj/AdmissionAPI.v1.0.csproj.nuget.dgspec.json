@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Microsoft\\OneDrive\\FPT\\Term_7\\SWD391\\Admission\\API\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0.csproj": {}
+    "C:\\Users\\duythai\\Desktop\\FPT University\\Ki 7\\SWD\\AdmissionProject\\API\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0.csproj": {}
   },
   "projects": {
-    "D:\\Microsoft\\OneDrive\\FPT\\Term_7\\SWD391\\Admission\\API\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0.csproj": {
+    "C:\\Users\\duythai\\Desktop\\FPT University\\Ki 7\\SWD\\AdmissionProject\\API\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Microsoft\\OneDrive\\FPT\\Term_7\\SWD391\\Admission\\API\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0.csproj",
+        "projectUniqueName": "C:\\Users\\duythai\\Desktop\\FPT University\\Ki 7\\SWD\\AdmissionProject\\API\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0.csproj",
         "projectName": "AdmissionAPI.v1.0",
-        "projectPath": "D:\\Microsoft\\OneDrive\\FPT\\Term_7\\SWD391\\Admission\\API\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0.csproj",
-        "packagesPath": "C:\\Users\\anhnp\\.nuget\\packages\\",
-        "outputPath": "D:\\Microsoft\\OneDrive\\FPT\\Term_7\\SWD391\\Admission\\API\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0\\obj\\",
+        "projectPath": "C:\\Users\\duythai\\Desktop\\FPT University\\Ki 7\\SWD\\AdmissionProject\\API\\AdmissionAPI.v1.0\\AdmissionAPI.v1.0.csproj",
+        "packagesPath": "C:\\Users\\duythai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duythai\\Desktop\\FPT University\\Ki 7\\SWD\\AdmissionProject\\API\\AdmissionAPI.v1.0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\anhnp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\duythai\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
